@@ -18,3 +18,6 @@ Wait for about 3 minutes and then SSH back into the Pi.
 
 Run: ```pip3 install adafruit-circuitpython-ht16k33```
 
+### Wiring Diagram
+
+![Seven Segment Wiring](/diagrams/7SevenSegmentDisplay_bb.png)
