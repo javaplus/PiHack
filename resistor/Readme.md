@@ -1,7 +1,7 @@
 ## Vive la Resistance!
 
 The LED we used in our first circuit is like most electronics in that it was created to work within a certain voltage range. 
-See the highlighted part of the description below that states the rating for this a simple red LED like we are using:
+See the highlighted part of the description below that states the rating for a simple red LED like we are using:
 ![Red LED Description](/images/LEDDescription.PNG)
 
 As you can see, the typical rating of a red LED like this is 2volts.  Our current power source is outputting about 5volts... too much for this LED! 
