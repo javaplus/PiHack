@@ -9,6 +9,11 @@ The first circuit we will build will be to power a simple light (LED).
 
 An important part of a working circuit is to make sure the circuit is complete or closed.  That is that there is a connection from the battery or power sources positive terminal through the light and to the ground.  Electricity flows from the positve terminal to the ground and if there is a break or disconnect in the circuit then the circuit is "open" and therefore no electrcity is flowing and your light won't shine.
 
+## What we will build
+
+The first circuit is to simply power an LED.  A LED is a Light Emitting Diode.  A Diode only allows electricity to flow in one direction.  So, there is a positive and negative side to the LED.  Typically the longer leg of the LED is the positive side.
+
+So, we will simply hook our power source to our bread board and then connect the power to the LED in the appropriate way.  See the Diagram below.
 
 ## Wiring Diagram
 
