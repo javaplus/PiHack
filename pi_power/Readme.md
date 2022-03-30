@@ -18,7 +18,10 @@ The Raspberry Pi has 40 pins that allow you to interface with it.  Many of the p
 
 We will be using the pins that provide constant power out to connect to our bread board.  And of course, as we learned in the first lesson, to create a circuit the power has to flow from a positive terminal to the "ground"(negative).
 
-So, simply follow the diagram below to connect your Pi to the breadboard.  Be sure to then power on your pi to see your circuit still work with power coming from the Pi.
+Here is the Pin Layout for the Pi Zero:
+![Pi Zero Headers](/images/piZeroHeaders.jpg)
+
+So, simply follow the diagram below to connect your Pi to the breadboard.  Be sure to then power on your pi to see your circuit still work with power coming from the Pi.  If you look at the pin layout above and then match it up with the diagram below, you'll see we are connecing the 5volt pin to the postive side of the breadboard and then connecting the negative side of the breadboard to the Ground pin on the Pi.
 
 ![Pi for Power Diagram](/diagrams/4LEDWButtonPowerPi_bb.png)
 
