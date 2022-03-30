@@ -13,3 +13,9 @@ An important part of a working circuit is to make sure the circuit is complete o
 ## Wiring Diagram
 
 ![Basic LED Wiring Diagram](/diagrams/1BasicLED_bb.png)
+
+
+
+### Resources:
+
+[In depth How a Breadboard Works](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all)
