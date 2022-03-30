@@ -18,3 +18,8 @@ Now we will make one minor change to our circuit to keep our LED from frying.  W
 ## Wiring Diagram
 
 ![LED With Resistor](/diagrams/2LEDWResistor_bb.png)
+
+
+## Optional Experiment
+
+You could experiment with different resistors to see how it affects the brightness of the LED.  Perhaps try a 1K and a 10K resistor and see how each affect the LED.
