@@ -13,6 +13,8 @@ An important part of a working circuit is to make sure the circuit is complete o
 
 The first circuit is to simply power an LED.  A LED is a Light Emitting Diode.  A Diode only allows electricity to flow in one direction.  So, there is a positive and negative side to the LED.  Typically the longer leg of the LED is the positive side.
 
+NOTE: Technically the color of wires don't matter (internally they are the same), but the color does make it easier to know the purpose.  Usually, red wires indicate positive(+) and black wires indicate ground/negative(-).  On the breadboard, the blue line represents the ground/negative power strip and the red/pink line indicates the positive side.
+
 So, we will simply hook our power source to our bread board and then connect the power to the LED in the appropriate way.  See the Diagram below.
 
 ## Wiring Diagram
