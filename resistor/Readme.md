@@ -1,4 +1,4 @@
-## Resitors to the Rescue
+## Resistors to the Rescue
 
 The LED we used in our first circuit is like most electronics in that it was created to work within a certain voltage range. 
 See the highlighted part of the description below that states the rating for this a simple red LED like we are using:
