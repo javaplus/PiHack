@@ -22,4 +22,6 @@ while True: # Run forever
 ```
 
 ## Wiring Diagram
+**NOTE: While the button is still in the diagram it is not used at all in this exercise, but will be used in the next.**
+
 ![Pi with LED](/diagrams/5LEDControlWithPi_bb.png)
