@@ -13,7 +13,7 @@ In this hackathon we will need each team to create a set of sensors that will de
 
 Horray! No more waiting in long lunch lines!
 
-**How the Hackathon will be judge:**
+**How the Hackathon will be judged:**
 
 |Category    | Description|
 |------------|------------|
