@@ -13,6 +13,9 @@ In this hackathon we will need each team to create a set of sensors that will de
 
 Horray! No more waiting in long lunch lines!
 
+
+<p align="center"><img src="/images/Lunch_Lines.jpg"></p>
+
 **How the Hackathon will be judged:**
 
 |Category    | Description|
