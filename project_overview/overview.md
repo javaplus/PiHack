@@ -10,5 +10,5 @@ In this hackathon we will need each team to create a set of sensors that will de
 Horray! No more waiting in long lunch lines!
 
 
-![Keep Lunch and Carry on](/images/317394929-keep-calm-and-have-lunch-601127.jpg)
+<p align="center">![Keep Lunch and Carry on](/images/317394929-keep-calm-and-have-lunch-601127.jpg)</p>
 
