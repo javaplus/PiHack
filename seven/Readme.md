@@ -5,7 +5,7 @@ Run:```sudo apt-get update```
 #### Download and install pip, the package manager for python libraries.
 Run:```sudo apt-get install python3-pip```
 #### Configure RaspberryPi to allow communication with external devices
-Run:```sudo rasp-config```
+Run:```sudo raspi-config```
 
 Under Interface Options enable both “SPI” and “I2C”. 
 (Use your arrow keys to navigate and Enter to select).  
