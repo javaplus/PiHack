@@ -3,4 +3,6 @@
 
 **Objective:** High School Lunch lines are way too long! We need to figure out a way to maximize lunch time for students by 
 
-![/images/lunchkeepcalmncarry.jpg]
+
+![Lunch](/images/lunchkeepcalmncarry.png)
+
