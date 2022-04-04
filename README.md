@@ -8,6 +8,10 @@ The Basic Exercises are designed to give you the foundation to which to build of
 Once you complete the Basics, you should have some basic understanding of how to work with the Raspberry Pi to record inputs and control LEDs.
 From there, the Extensions can help you add to your project to make it more challenging and exciting!
 
+### What are we trying to do here?
+
+- Read the overview of our problem statement here! [Project Overview](/project_overview/overview.md)
+
 ### Basic Exercises:
 
 - [First Circuit](./first_circuit)
