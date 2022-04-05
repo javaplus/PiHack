@@ -33,3 +33,11 @@ Create a file called "adc.py" on the Pi and then run this code to test the ADC a
 
 If everything is working right, you should see a series of voltages being printed out.
 As you cover the photoresistor to block out light, the voltages should decrease and if you shine a light or laser at the photoresistor you should see the voltages increase.
+
+## Using the ADC Code in your Program
+
+The "adc.py" program that you used to test your wiring can also be imported and used by your program to easily get the value from the photoresistor.
+Creating shareable code is very common in software development.  In Python, if you import another python program into your file, you can access it's functions.  
+So, in our case if we import the adc.py file into our program, you can simply call the **adc.get_adc(0)** to get the value of the sensor connected to the ADC.  The zero is to say get the value for the first device.  If you connect two photoresistors, the second would connect to the only unused pin left on the ADC chip.  Then you could get it's value by calling **adc.get_adc(1)**.
+
+See the [tripwire.py](/analog_to_digital/tripwire.py) file as an example.  This program will light up the LED if the tripwire is tripped for more than two seconds.
