@@ -57,8 +57,9 @@ if __name__ == '__main__':
     try:
         while True:
             adc_0 = get_adc(0)
-            #adc_1 = get_adc(1)
+            adc_1 = get_adc(1)
             print("ADC Channel 0:", round(adc_0, 2), "V")
+            print("ADC Channel 1:", round(adc_1, 2), "V")
             time.sleep(0.2)
 
     except KeyboardInterrupt:
