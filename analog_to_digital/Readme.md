@@ -6,7 +6,9 @@ Actually most information in nature analog.  We've already mentioned two, but ca
 
 ## Analog to Digital Convertor 
 
-There are many type of analog sensor avaliable... light and temperature sensors to vibration sesnsor and range sensor just to name a few.  But what if you want to use these on a Raspberry Pi that only accepts digital signals.  Well lucky for us there are Analog to Digital convertors.  These typically come in the form of a little chip called an integrated circuit (IC).  Integrated circuits or ICs are very common in electronics and can provide a wide range of functions.  The Analog to Digital convertor allows use any of these Analog sensors and send the data to the Raspberry Pi.  It does require a decent amount of wiring, but is not too difficult.  The ADC (analog digital convertor) connects to the SPI (serial periphal interface) of the pi.  The SPI is just a few dedicated GPIO pins that work together to allow us to talk to things like our ADC.  
+There are many type of analog sensor avaliable... light and temperature sensors to vibration sesnsor and range sensor just to name a few.  But what if you want to use these on a Raspberry Pi that only accepts digital signals.  Well lucky for us there are Analog to Digital convertors.  These typically come in the form of a little chip called an integrated circuit (IC).  
+![ADC Integrated Circuit](/images/adcMCP3002.jpg)  
+Integrated circuits or ICs are very common in electronics and can provide a wide range of functions.  The Analog to Digital convertor allows us to use any of these Analog sensors and send the data to the Raspberry Pi.  It does require a decent amount of wiring, but is not too difficult.  The ADC (analog digital convertor) connects to the SPI (serial peripheral interface) of the Pi.  To use the SPI on the Pi, you simply connect the ADC to a few dedicated GPIO pins.    
 The image below shows the SPI pins.  We will use all but one of these to connect our ADC.
 
 ![SPI Pins on Raspberry PI](/images/Pi-SPI-Pins.png)
@@ -21,6 +23,8 @@ The diagram below demonstrates how to wire up the ADC and the photoresistor.  **
 
 
 ## Analog to Digital Convertor 
+**NOTE:** The notch on the ADC chip goes on the left side in the diagram below. So, be sure to position it appropriately.
+
 
 ![Analog To Digital Convertor Diagram](/diagrams/PiZeroADC_PhotoResistor_bb.png)
 
@@ -41,3 +45,11 @@ Creating shareable code is very common in software development.  In Python, if y
 So, in our case if we import the adc.py file into our program, you can simply call the **adc.get_adc(0)** to get the value of the sensor connected to the ADC.  The zero is to say get the value for the first device.  If you connect two photoresistors, the second would connect to the only unused pin left on the ADC chip.  Then you could get it's value by calling **adc.get_adc(1)**.
 
 See the [tripwire.py](/analog_to_digital/tripwire.py) file as an example.  This program will light up the LED if the tripwire is tripped for more than two seconds.
+
+## Other Resources:
+
+[In Depth article on how To Connect the MCP3002 To the Raspberry Pi](http://www.learningaboutelectronics.com/Articles/MCP3002-analog-to-digital-converter-ADC-to-Raspberry-Pi.php)
+
+[Using a different ADC with the Pi](https://tutorials-raspberrypi.com/photoresistor-brightness-light-sensor-with-raspberry-pi/#:~:text=With%20a%20Raspberry%20Pi%20light,a%20certain%20level%20of%20darkness)
+
+[Interesting Alternative Method to get Digital Signal using Transistor with a Photoresistor](https://peppe8o.com/using-photoresistor-from-raspberry-pi-to-detect-light/)
