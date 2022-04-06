@@ -48,7 +48,14 @@ See the [tripwire.py](/analog_to_digital/tripwire.py) file as an example.  This 
 
 ## Laser Pointer
 
+The laser pointers in your kits should look like this:
+
+![](/images/laserpointer.jpg)
+
+To hook up the laser pointer, simply plug the red wire into the positive(+) rail on the breadboard and then the blue wire into the negative(-) side of the breadboard.
+
 When the photoresistor with the ADC is connected and working, then you can use the laser pointer shining directly into the photoresistor to create high values in the unblocked(untripped) position.  If you then block the beam of the laser, then you should see the values drop dramatically.  It's good to be running the adc.py program while trying to adjust the position of the laser pointer so that you get the highest reading possible when the laser pointer is not blocked.  This gives you a greater differential in values to use an indication when someone has "tripped" the laser beam.
+
 
 
 ## Other Resources:
