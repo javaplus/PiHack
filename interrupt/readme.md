@@ -8,7 +8,7 @@ The second parameter can be `GPIO.RISING`, `GPIO.FALLING` or `GPIO.Both`.  It wi
 ![Arduino interrput Model](/diagrams/arduino_interrupt_mode.jpg)
 
 
-The above iterrupt_example.py is based off of the following article...
+- [iterrupt_example.py](./interrupt/iterrupt_example.py) is based off of the following article...
 - [RaspberryPi Interrupt](https://roboticsbackend.com/raspberry-pi-gpio-interrupts-tutorial/)
 
 
