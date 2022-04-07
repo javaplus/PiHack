@@ -1,6 +1,6 @@
 # PiHack
 
-Repository for learning some electronics basics and how to code on the Raspberry Pi!
+Repository for learning electronics basics and how to code on the Raspberry Pi!
 
 
 Below are the links for the hands on exercises to learn how to work with simple electronics and programming with the Raspberry Pi.
@@ -22,6 +22,14 @@ From there, the Extensions can help you add to your project to make it more chal
 - [Input with the Pi](./pi_button)
 - [Using Functions](./functions_tutorial)
 
+### What Now?
+
+After completing the Basic Exercises, you should have the basic understanding of how to read input using the GPIO pins and work with simple LEDs.
+Now take what you've learned and review the [Project Overview](/project_overview/overview.md) once again and think about how you can start gathering the required information.  Perhaps an easy way to start is to use a button as a place holder for a turnstile/gate that tracks when students enter the line.  A second button could be used as an exit gate.  Then through the code you could have logic to keep count of numbers in line over time.  Start brainstorming and start coding!
+
+For more ways to extend your project, look at the **Extensions** section below for how to add things like a display for numbers or even an optical turnstie/tripwire.
+
+Code on!
 
 ### Extensions
 - [7 Segment Display](./seven)
