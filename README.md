@@ -20,6 +20,7 @@ From there, the Extensions can help you add to your project to make it more chal
 - [Intro To Raspberry Pi](./pi_power)
 - [Programming the Pi](./pi_led)
 - [Input with the Pi](./pi_button)
+- [Using Functions](./functions_tutorial)
 
 
 ### Extensions
