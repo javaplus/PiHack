@@ -8,7 +8,7 @@ def setUpBoard():
     GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)   # Set pin 10 to be an input pin and set initial value to low (off)
 
 def isButtonDown(button_pin):
-    return GPIO.input(button_pin)
+    return GPIO.input(button_pin) == GPIO.HIGH
 
 def turnOnLED(pin_number):
     GPIO.output(pin_number, GPIO.HIGH) # Turn on
