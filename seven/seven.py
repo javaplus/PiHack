@@ -21,10 +21,10 @@ display.fill(0)
 ##### END SETUP ####
 
 ### Below here are various ways to write out to the display ###
+# Show 4218 on the display
+display.print(4218)
 
-# Can just print a number
-display.print(42)
-time.sleep(1)
+time.sleep(2)
 
 # Set the first character to '1':
 display[0] = '1'
@@ -34,16 +34,29 @@ display[1] = '2'
 display[2] = 'A'
 # Set the forth character to 'B':
 display[3] = 'B'
-time.sleep(1)
 
-numbers = [0.0, 1.0, -1.0, 0.55, -0.55, 10.23, -10.2]
+time.sleep(2)
 
-# print negative and positive floating point numbers
-for i in numbers:
-    display.print(i)
-    time.sleep(0.5)
-
-time.sleep(1)
-# print just a value and add the colon:
+# Set the display to 11:45
 display.print(1145)
 display.print(":")
+
+time.sleep(2)
+
+# Display 1.389
+# Disable the colon
+display.print(";")
+display.print(1.389)
+
+time.sleep(2)
+
+# Display 1-2.A
+display.print("1-2.A")
+
+time.sleep(2)
+
+# Display 8.8.EE using Hex, and binary bitmask
+display.set_digit_raw(0, 0xFF)
+display.set_digit_raw(1, 0b11111111)
+display.set_digit_raw(2, 0x79)
+display.set_digit_raw(3, 0b01111001)
