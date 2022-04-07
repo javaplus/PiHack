@@ -34,3 +34,12 @@ Code on!
 ### Extensions
 - [7 Segment Display](./seven)
 - [Analog to Digital](./analog_to_digital)
+
+
+### Additional Resources
+- [Getting Started with Pyton (hands-on)](https://www.programiz.com/python-programming/first-program)
+- [Python Functions](https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/)
+- [While Loops in Python](https://www.w3schools.com/python/python_while_loops.asp)
+- [Global Variables in Python](https://www.w3schools.com/python/python_variables_global.asp)
+- [Python If Else Statement](https://www.programiz.com/python-programming/if-elif-else)
+
