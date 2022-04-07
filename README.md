@@ -37,9 +37,14 @@ Code on!
 
 
 ### Additional Resources
+##### New to Python:
 - [Getting Started with Pyton (hands-on)](https://www.programiz.com/python-programming/first-program)
 - [Python Functions](https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/)
+- [Working with Time](https://www.programiz.com/python-programming/time)
 - [While Loops in Python](https://www.w3schools.com/python/python_while_loops.asp)
 - [Global Variables in Python](https://www.w3schools.com/python/python_variables_global.asp)
 - [Python If Else Statement](https://www.programiz.com/python-programming/if-elif-else)
+
+##### Advanced RaspberryPi With Python:
+- [RaspberryPi Interrupt](https://roboticsbackend.com/raspberry-pi-gpio-interrupts-tutorial/)
 
