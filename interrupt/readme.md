@@ -3,7 +3,7 @@ A GPIO interrupt allows for callback methods to be executed asynchronously on a 
 ```python
 GPIO.add_event_detect(ENTER_BUTTON_GPIO, GPIO.BOTH, callback=line_enter_callback)
 ```
-The second parameter can be `GPIO.RISING`, `GPIO.FALLING` or `GPIO.Both`.  It will trigger the callback function when the gpio pin goes from a state of low energy to high energy (**Rising Change**), a state of high energy to low energy (**Falling Change**), or be triggered twice... once on the way up then again on the way back down.   
+The second parameter can be `GPIO.RISING`, `GPIO.FALLING` or `GPIO.Both`.  It will trigger the callback function when the gpio pin goes from a state of low energy to high energy (**RISING CHANGE**), a state of high energy to low energy (**FALLING CHANGE**), or be triggered twice... once on the way up then again on the way back down.   
 
 ![Arduino interrput Model](/diagrams/arduino_interrupt_mode.jpg)
 
