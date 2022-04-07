@@ -66,7 +66,7 @@ if GPIO.input(10) == GPIO.HIGH:
 This line can be broken out into a function titled isButtonDown().  The function will take a parameter that obtains the pin number.  We can then use this function to replace the equation on line 11.
 ```
 def isButtonDown(button_pin):
-    return GPIO.input(button_pin)
+    return GPIO.input(button_pin) == GPIO.HIGH
     
 while True: # Run forever
   if isButtonDown(10):
@@ -101,6 +101,8 @@ while True: # Run forever
     if isButtonDown(10):
         handleButtonDown()
 ```
+As you can see above, now the main body of our code is simple to read without getting bogged down in the details.  The details are in the functions.
+If we need to make a change to the program we can simply update the function that contains the code we want to modify.  Functions allow you to consolidate logic into well named blocks of code and make updating and troubleshooting easier.
 When put all together, we can see how this button.py, while larger than the original, is more concise and will lead to better programming.
 ```
 import RPi.GPIO as GPIO    # Import Raspberry Pi GPIO library
@@ -113,7 +115,7 @@ def setUpBoard():
     GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)   # Set pin 10 to be an input pin and set initial value to low (off)
 
 def isButtonDown(button_pin):
-    return GPIO.input(button_pin)
+    return GPIO.input(button_pin) == GPIO.HIGH
 
 def turnOnLED(pin_number):
     GPIO.output(pin_number, GPIO.HIGH) # Turn on
