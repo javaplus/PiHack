@@ -33,7 +33,11 @@ if __name__ == '__main__':
 
     GPIO.setup(ENTER_BUTTON_GPIO, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
     GPIO.setup(EXIT_BUTTON_GPIO, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-    GPIO.setup(LED_GPIO, GPIO.OUT)   
+    GPIO.setup(LED_GPIO, GPIO.OUT)
+    
+#   The following methods take 3 parameters, the first is the GPIO pin number, the second is the trigger condition, the third is the callback function.
+#   The second parameter can be GPIO.RISING, GPIO.FALLING or BPIO.Both.  It will trigger the callback function when the gpio pin goes from a state of low energy to high enerey,
+#   a state of high energy to low energy, or be triggered twice... once on the way up then again on the way back down.   
     GPIO.add_event_detect(ENTER_BUTTON_GPIO, GPIO.BOTH, callback=line_enter_callback)
     GPIO.add_event_detect(EXIT_BUTTON_GPIO, GPIO.BOTH, callback=line_exit_callback)
     
