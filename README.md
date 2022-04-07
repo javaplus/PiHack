@@ -46,5 +46,6 @@ Code on!
 - [Python If Else Statement](https://www.programiz.com/python-programming/if-elif-else)
 
 ##### Advanced RaspberryPi With Python:
+- [RaspberryPi Interrupt](./interrupt)
 - [RaspberryPi Interrupt](https://roboticsbackend.com/raspberry-pi-gpio-interrupts-tutorial/)
 
