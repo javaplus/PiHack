@@ -29,33 +29,33 @@ Install Thonny on a computer running Windows.
 ![License](/images/Thonny/Windows/Thonny4.png)
 
 
-8. Select an install destination and click **Next**.
+9. Select an install destination and click **Next**.
 
 ![Destination](/images/Thonny/Windows/Thonny5.png)
 
 
-9. Select a start menu folder and click **Next**.
+10. Select a start menu folder and click **Next**.
 
 ![Menu](/images/Thonny/Windows/Thonny6.png)
 
 
-10. Select **Create Destop Icon** if you want a desktop icon for Thonny.
+11. Select **Create Destop Icon** if you want a desktop icon for Thonny.
 
 ![Menu](/images/Thonny/Windows/Thonny7.png)
 
 
-11. Click **Install** to install Thonny.
+12. Click **Install** to install Thonny.
 
 ![Ready](/images/Thonny/Windows/Thonny8.png)
 
 
-12. Thonny will continue to install.
+13. Thonny will continue to install.
 
 ![Writing](/images/Thonny/Windows/Thonny9.png)
 
 
-13. A summary screen will be shown at the end of a successful installation.
-14. Click **Finish** to exit the installer.
+14. A summary screen will be shown at the end of a successful installation.
+15. Click **Finish** to exit the installer.
 
 ![Success](/images/Thonny/Windows/Thonny10.png)
 
