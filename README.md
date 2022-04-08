@@ -12,6 +12,11 @@ From there, the Extensions can help you add to your project to make it more chal
 
 - Read the overview of our problem statement here! [Project Overview](/project_overview/overview.md)
 
+### Prerequisites
+
+Install Thonny by following these [instructions](/thonny).
+
+
 ### Basic Exercises:
 
 - [First Circuit](./first_circuit)
