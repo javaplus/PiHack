@@ -86,6 +86,6 @@ Thonny is an Integrated Development Environment (IDE) for Python.  This means Th
 ![Save Password](/images/Thonny/Mac/Thonny14.png)
 
 
-13. You should now be able to type commands in the shell at the bottom of the screen.
+13. You should now be able to open, edit and save files to your Raspberry Pi using Thonny.
 
 ![Terminal](/images/Thonny/Mac/Thonny15.png)
