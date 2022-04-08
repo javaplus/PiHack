@@ -13,12 +13,15 @@ def signal_handler(sig, frame):
     sys.exit(0)
     
 def line_enter_callback(channel):
+    # If ENTER_BUTTON is down, then light up LED
     if(GPIO.input(ENTER_BUTTON_GPIO)):
       GPIO.output(LED_GPIO, GPIO.HIGH)
     else:
+      # ENTER_BUTTON is up then turn off LED
       GPIO.output(LED_GPIO, GPIO.LOW)
       
 def line_exit_callback(channel):
+    # If EXIT_BUTTON is down, then light up LED
     if(GPIO.input(EXIT_BUTTON_GPIO)):
       GPIO.output(LED_GPIO, GPIO.HIGH))
     else:
