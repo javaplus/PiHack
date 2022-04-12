@@ -75,6 +75,9 @@ NOTE: The MCP3008 is slightly more expensive than the MCP3002, but supports more
 - [MCP3008 ADC - Digi-Key](https://www.digikey.com/en/products/detail/microchip-technology/mcp3008-i-p/319422)
 - [MCP3008 ADC - Chicago Elec Dist](https://chicagodist.com/products/8-channel-10-bit-analog-adc-for-raspberry-pi)
 - [MCP3002 ADC-Adafruit](https://www.adafruit.com/product/856)
+
+### Simple Laser Pointers
+- [Laser Pointers - Amazon](https://smile.amazon.com/gp/product/B071FT9HSV/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 ### General Kits
 Note: Kits to include wires, breadboard, resistors, photoresistors(light sensors), etc...
 - [Basic Electronics Kits](https://www.amazon.com/REXQualis-Electronics-tie-Points-Breadboard-Potentiometer/dp/B073ZC68QG/ref=sr_1_5?keywords=electronics+starter+kit&qid=1644431922&sprefix=electronics+startr%2Caps%2C132&sr=8-5)
