@@ -53,3 +53,28 @@ Code on!
 ##### Advanced RaspberryPi With Python:
 - [RaspberryPi Interrupt](./interrupt)
 
+
+### Parts List:
+##### 7 Segemnt Displays
+NOTE:  When getting 7 Segment displays to work with the Pi, get the ones with the I2C backpack included. Otherwise, it requires a lot more wires and more coding.
+- [.56" Displays - Amazon](https://www.amazon.com/Adafruit-4-Digit-7-Segment-Display-Backpack/dp/B00GJRW0DS?th=1)
+- [.56" Displays - Adafruit](https://www.adafruit.com/product/881)
+- [.56" Displays - Microcenter](https://www.microcenter.com/product/504149/adafruit-industries-056-4-digit-7-segment-display-w-i2c-backpack-blue)
+- [.56" Displays - Chicago Elec Dist](https://chicagodist.com/collections/adafruit/products/adafruit-0-56-4-digit-7-segment-display-w-i2c-backpack-red)
+- [1.2" Displays - Adafruit](https://www.adafruit.com/product/1269)
+- [1.2" Displays - Chicago Elec Dist](https://chicagodist.com/collections/adafruit/products/adafruit-1-2-4-digit-7-segment-display-w-i2c-backpack-red)
+##### Analog to Digital Convertor (MCP3002):
+NOTE: The MCP3002 ADC was used in this tutorial mainly used because they are cheaper to get and have decent library support.  If not following this tutorial, I'd recommend at looking at the alternative MCP3008.
+- [MCP3002 ADC - Sparkfun](https://www.sparkfun.com/products/8636)
+- [MCP3002 ADC - Amazon](https://smile.amazon.com/MCP3002-I-Analog-Digital-Converter-Single/dp/B005T6BJUA/ref=sr_1_2?crid=I60G379BCH4Y&keywords=mcp3002&qid=1649782181&sprefix=mcp3002%2Caps%2C97&sr=8-2)
+- [MCP3002 ADC - Mouser](https://www.mouser.com/ProductDetail/Microchip-Technology/MCP3002-I-P?qs=Ux5rHyN1IXSXX8XkfIMKEg%3D%3D)
+- [MCP3002 ADC - Digi-Key](https://www.digikey.com/en/products/detail/microchip-technology/MCP3002-I-P/319412)
+##### Alternative Analog to Digital Convertor(MCP3008)
+NOTE: The MCP3008 is slightly more expensive than the MCP3002 with better library support.
+- [MCP3008 ADC - Mouser](https://www.mouser.com/ProductDetail/Microchip-Technology/MCP3008-I-P?qs=AF%252BffTaPb30XZ0OdV6HdVg%3D%3D)
+- [MCP3008 ADC - Digi-Key](https://www.digikey.com/en/products/detail/microchip-technology/mcp3008-i-p/319422)
+- [MCP3008 ADC - Chicago Elec Dist](https://chicagodist.com/products/8-channel-10-bit-analog-adc-for-raspberry-pi)
+- [MCP3002 ADC-Adafruit](https://www.adafruit.com/product/856)
+##### General Kits
+Note: Kits to include wires, breadboard, resistors, photoresistors(light sensors), etc...
+- [Basic Electronics Kits](https://www.amazon.com/REXQualis-Electronics-tie-Points-Breadboard-Potentiometer/dp/B073ZC68QG/ref=sr_1_5?keywords=electronics+starter+kit&qid=1644431922&sprefix=electronics+startr%2Caps%2C132&sr=8-5)
