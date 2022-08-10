@@ -7,7 +7,7 @@ In this exercise, we will show how to use a GPIO pin to receive input.  In our c
 
 ## The Code:
 Here is the code.  Notice this time you simply add two new lines to the previous code.  That is you will add the GPIO setup for the pin 10 to be Output.
-Then you will had an if condition to only light the LED if the button is pressed.
+Then you will add an if condition to only light the LED if the button is pressed.
 
 ```
 import RPi.GPIO as GPIO    # Import Raspberry Pi GPIO library
